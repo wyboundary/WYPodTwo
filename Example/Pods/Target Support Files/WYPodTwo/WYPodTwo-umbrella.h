@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Logger.h"
 
 FOUNDATION_EXPORT double WYPodTwoVersionNumber;
 FOUNDATION_EXPORT const unsigned char WYPodTwoVersionString[];

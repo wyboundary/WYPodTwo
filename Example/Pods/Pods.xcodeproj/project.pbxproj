@@ -8,78 +8,75 @@
 
 /* Begin PBXBuildFile section */
 		0262139AD20E59AD7B59DB1E5F274DB6 /* Pods-WYPodTwo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1F30BD49703FFF744878DAA063DA443 /* Pods-WYPodTwo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F5CBCA560B20776B083D405F989699B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5754CCA4E6CFE017B8D596BC6ADE3314 /* WYPodTwo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50959CC35D5BA80D5DB881565CFBCB61 /* WYPodTwo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13912127F2CFC903FD02303F05AFDB7F /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = C1236EB7A2581EF2BAEE5F617161D6F8 /* Logger.m */; };
+		2CF67C64F4049461089AF46C50BB4923 /* WYPodTwo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E471F3930A97810C2571465A83C1154E /* WYPodTwo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7407EB753B9146D97777CC0DF39F4440 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BEE6D398D01503A9BE44F9C4FFA005A /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7881D5FA90403B96897EA0506EB1FFD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A2FC9899F8B79BE31176B8F0C53E0EB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AA0E455926B24DAB00A5A6A5 /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0E455726B24DAB00A5A6A5 /* Logger.h */; };
-		AA0E455A26B24DAB00A5A6A5 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0E455826B24DAB00A5A6A5 /* Logger.m */; };
 		C59BC0A23F7653E28C768A4808AE385E /* Pods-WYPodTwo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3617FAAF1F12908DCC01E1264B3E0D7 /* Pods-WYPodTwo_Tests-dummy.m */; };
+		D5F9F1015900864D76108836AE4F4235 /* WYPodTwo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBEE0D757E30F4BA9FE91CEEF702D4E /* WYPodTwo-dummy.m */; };
 		EC3C5742675ACA35597EC3C7F945326F /* Pods-WYPodTwo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 123DF604AA111129587CFDC583CDFBF2 /* Pods-WYPodTwo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED6D992C51F89527F1270D8B9452654E /* Pods-WYPodTwo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 115AA3BEB524A65C47F5ADF85C83ECAC /* Pods-WYPodTwo_Example-dummy.m */; };
-		F00F4B46FB353678EBD3DCD0B6A7F0B4 /* WYPodTwo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D63D5EBD6AC51978BABEC4AA7524A0 /* WYPodTwo-dummy.m */; };
+		F2228F39FF8DCB376957EAD1C90408D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3780D4984FC32BD2C111FFB06D296985 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8E7563B09D5BB5D9B3A3E3F723C6F309;
-			remoteInfo = WYPodTwo;
-		};
-		AB06672706178215CBE2821357E9BED0 /* PBXContainerItemProxy */ = {
+		0FD62F7ED0B53EB93C67BA9C7613C084 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A58C801B93E8E715DA313C820E27FE50;
 			remoteInfo = "Pods-WYPodTwo_Example";
 		};
+		E342D902BB785992981C00DD3D84C055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E7563B09D5BB5D9B3A3E3F723C6F309;
+			remoteInfo = WYPodTwo;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		063C24DFB9EF6AE513C9C660FE22DA17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		115AA3BEB524A65C47F5ADF85C83ECAC /* Pods-WYPodTwo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYPodTwo_Example-dummy.m"; sourceTree = "<group>"; };
 		123DF604AA111129587CFDC583CDFBF2 /* Pods-WYPodTwo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYPodTwo_Example-umbrella.h"; sourceTree = "<group>"; };
 		22E75728CC42A1A639FD9EC8AFFAF81F /* Pods-WYPodTwo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYPodTwo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		23060FCECB56B65252C83F1ABDF0D0D5 /* Pods-WYPodTwo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYPodTwo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		279FAA69D132A96B612970EFE527E0C2 /* Pods-WYPodTwo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYPodTwo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2BEE6D398D01503A9BE44F9C4FFA005A /* Logger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Logger.h; path = WYPodTwo/Classes/Logger.h; sourceTree = "<group>"; };
 		357BE27ADACA6BF334FD8C221793DF88 /* Pods_WYPodTwo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYPodTwo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B56754B0135F14AB6140E221B2C474 /* Pods-WYPodTwo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYPodTwo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		43E4FFDCC1F34ED2CBAA65F602AB2305 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4A5F3B507E749FBC01CF79B9E413EE19 /* WYPodTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WYPodTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDD332CB182DDABB26A59EBDA465CEB /* Pods-WYPodTwo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYPodTwo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4C994154CA0D640CB331FDF70CC22CD5 /* WYPodTwo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WYPodTwo-Info.plist"; sourceTree = "<group>"; };
+		4CBEE0D757E30F4BA9FE91CEEF702D4E /* WYPodTwo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYPodTwo-dummy.m"; sourceTree = "<group>"; };
 		4F3B58CBF1E77674DD9068489F309706 /* Pods-WYPodTwo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYPodTwo_Example.modulemap"; sourceTree = "<group>"; };
-		50959CC35D5BA80D5DB881565CFBCB61 /* WYPodTwo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYPodTwo-umbrella.h"; sourceTree = "<group>"; };
-		65D63D5EBD6AC51978BABEC4AA7524A0 /* WYPodTwo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYPodTwo-dummy.m"; sourceTree = "<group>"; };
+		547412A26ECACECD8C6C7DC55CF65510 /* WYPodTwo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYPodTwo.modulemap; sourceTree = "<group>"; };
 		6E0D47B60ADABBB7DB3CF1771B049AF8 /* Pods-WYPodTwo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYPodTwo_Example-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		80F2844573D7CFD27A8ABDEFCA17CD25 /* WYPodTwo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WYPodTwo-Info.plist"; sourceTree = "<group>"; };
+		85621437761B07AB935ABE5C57F3C1D4 /* WYPodTwo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYPodTwo-prefix.pch"; sourceTree = "<group>"; };
 		8C8CD73C8A1B0A1177FAD61F5CF9A103 /* Pods-WYPodTwo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYPodTwo_Tests.modulemap"; sourceTree = "<group>"; };
-		8FF19B1884EEE4E7C1642390907774BB /* WYPodTwo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYPodTwo.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F39E58359B2C19F7A6AB1750938E11D /* WYPodTwo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WYPodTwo.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		A055C59EECDD095A1F68A09C0F944895 /* Pods-WYPodTwo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYPodTwo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AA0E455726B24DAB00A5A6A5 /* Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Logger.h; path = WYPodTwo/Classes/Logger.h; sourceTree = "<group>"; };
-		AA0E455826B24DAB00A5A6A5 /* Logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Logger.m; path = WYPodTwo/Classes/Logger.m; sourceTree = "<group>"; };
-		ADC402A862858EA9FEDD89ABB7D258E7 /* WYPodTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYPodTwo.debug.xcconfig; sourceTree = "<group>"; };
 		B2FE19355942F05AF70F9D10D76EB145 /* Pods-WYPodTwo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYPodTwo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B3826032244C77EE6EE9ED3433CE758C /* Pods-WYPodTwo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYPodTwo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1236EB7A2581EF2BAEE5F617161D6F8 /* Logger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Logger.m; path = WYPodTwo/Classes/Logger.m; sourceTree = "<group>"; };
 		C1F30BD49703FFF744878DAA063DA443 /* Pods-WYPodTwo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYPodTwo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CACF490689517446A49F8FB50EBAB2F6 /* WYPodTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYPodTwo.release.xcconfig; sourceTree = "<group>"; };
 		CCE5AB6ED275BF93FC775C5CCB7004F1 /* Pods-WYPodTwo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYPodTwo_Tests-Info.plist"; sourceTree = "<group>"; };
-		D0919E4DDA6DD2F21EEA0B27BA51A30F /* WYPodTwo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYPodTwo.release.xcconfig; sourceTree = "<group>"; };
+		CF4645C1B07A85E75835F1190D77699D /* WYPodTwo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYPodTwo.debug.xcconfig; sourceTree = "<group>"; };
 		D3617FAAF1F12908DCC01E1264B3E0D7 /* Pods-WYPodTwo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYPodTwo_Tests-dummy.m"; sourceTree = "<group>"; };
 		D546FEBE16FE946861E270C428194AEA /* Pods-WYPodTwo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYPodTwo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DB27DF8F9EB4E72591AE27B9D4351F6D /* WYPodTwo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYPodTwo-prefix.pch"; sourceTree = "<group>"; };
 		E123287CB98D2EF943555334A55A6BE5 /* Pods_WYPodTwo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYPodTwo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E471F3930A97810C2571465A83C1154E /* WYPodTwo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYPodTwo-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		226C01199752F14FBEFD167D69D6CB53 /* Frameworks */ = {
+		56D063B5BF22B893F657A2FE66A4C76C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F5CBCA560B20776B083D405F989699B /* Foundation.framework in Frameworks */,
+				F2228F39FF8DCB376957EAD1C90408D5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,24 +99,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A59ADC94DE39D6DC467BCF1B8815E82 /* WYPodTwo */ = {
+		019B99E43DDE20231DCB911DF28A8433 /* WYPodTwo */ = {
 			isa = PBXGroup;
 			children = (
-				F50933B1A77A86E710718B87F9CCBA87 /* Pod */,
-				EB8E7FFC2530F781A2E9114F033209A1 /* Support Files */,
-				AA0E455726B24DAB00A5A6A5 /* Logger.h */,
-				AA0E455826B24DAB00A5A6A5 /* Logger.m */,
+				2BEE6D398D01503A9BE44F9C4FFA005A /* Logger.h */,
+				C1236EB7A2581EF2BAEE5F617161D6F8 /* Logger.m */,
+				A015DB30B8DAA3B4EC86F779D3247D0C /* Support Files */,
 			);
-			name = WYPodTwo;
-			path = ../..;
+			path = WYPodTwo;
 			sourceTree = "<group>";
 		};
-		2545C2AC62968CBA4FA261C9281ADC51 /* Development Pods */ = {
+		16319E962D7DB6C75B188E5C65290A34 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0A59ADC94DE39D6DC467BCF1B8815E82 /* WYPodTwo */,
+				019B99E43DDE20231DCB911DF28A8433 /* WYPodTwo */,
 			);
-			name = "Development Pods";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		3A29E32126AEB2A73527E8EDDDDBC268 /* Pods-WYPodTwo_Tests */ = {
@@ -156,12 +151,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A015DB30B8DAA3B4EC86F779D3247D0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				547412A26ECACECD8C6C7DC55CF65510 /* WYPodTwo.modulemap */,
+				4CBEE0D757E30F4BA9FE91CEEF702D4E /* WYPodTwo-dummy.m */,
+				80F2844573D7CFD27A8ABDEFCA17CD25 /* WYPodTwo-Info.plist */,
+				85621437761B07AB935ABE5C57F3C1D4 /* WYPodTwo-prefix.pch */,
+				E471F3930A97810C2571465A83C1154E /* WYPodTwo-umbrella.h */,
+				CF4645C1B07A85E75835F1190D77699D /* WYPodTwo.debug.xcconfig */,
+				CACF490689517446A49F8FB50EBAB2F6 /* WYPodTwo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WYPodTwo";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2545C2AC62968CBA4FA261C9281ADC51 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				16319E962D7DB6C75B188E5C65290A34 /* Pods */,
 				8DC1F89887C7128D8DBEF8A36EBFE8EC /* Products */,
 				E4CB1FFB84EB91B83BBD6A471A4A7AAC /* Targets Support Files */,
 			);
@@ -201,39 +211,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EB8E7FFC2530F781A2E9114F033209A1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8FF19B1884EEE4E7C1642390907774BB /* WYPodTwo.modulemap */,
-				65D63D5EBD6AC51978BABEC4AA7524A0 /* WYPodTwo-dummy.m */,
-				4C994154CA0D640CB331FDF70CC22CD5 /* WYPodTwo-Info.plist */,
-				DB27DF8F9EB4E72591AE27B9D4351F6D /* WYPodTwo-prefix.pch */,
-				50959CC35D5BA80D5DB881565CFBCB61 /* WYPodTwo-umbrella.h */,
-				ADC402A862858EA9FEDD89ABB7D258E7 /* WYPodTwo.debug.xcconfig */,
-				D0919E4DDA6DD2F21EEA0B27BA51A30F /* WYPodTwo.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WYPodTwo";
-			sourceTree = "<group>";
-		};
-		F50933B1A77A86E710718B87F9CCBA87 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				063C24DFB9EF6AE513C9C660FE22DA17 /* LICENSE */,
-				43E4FFDCC1F34ED2CBAA65F602AB2305 /* README.md */,
-				9F39E58359B2C19F7A6AB1750938E11D /* WYPodTwo.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4BED074AF583953C2F4C1ED9D7CDAE26 /* Headers */ = {
+		1C3EE764C9A9C2C95E37920A0948DF76 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5754CCA4E6CFE017B8D596BC6ADE3314 /* WYPodTwo-umbrella.h in Headers */,
+				7407EB753B9146D97777CC0DF39F4440 /* Logger.h in Headers */,
+				2CF67C64F4049461089AF46C50BB4923 /* WYPodTwo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +227,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA0E455926B24DAB00A5A6A5 /* Logger.h in Headers */,
 				EC3C5742675ACA35597EC3C7F945326F /* Pods-WYPodTwo_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,12 +244,12 @@
 /* Begin PBXNativeTarget section */
 		8E7563B09D5BB5D9B3A3E3F723C6F309 /* WYPodTwo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D57B7DF617252CCFD8CBF749954A609B /* Build configuration list for PBXNativeTarget "WYPodTwo" */;
+			buildConfigurationList = 87154E1DB74676D17162246B70005FB0 /* Build configuration list for PBXNativeTarget "WYPodTwo" */;
 			buildPhases = (
-				4BED074AF583953C2F4C1ED9D7CDAE26 /* Headers */,
-				66CB5A3E58D78B9BEA93190AA8E132D1 /* Sources */,
-				226C01199752F14FBEFD167D69D6CB53 /* Frameworks */,
-				4908B815890663977B45B27FD8D25772 /* Resources */,
+				1C3EE764C9A9C2C95E37920A0948DF76 /* Headers */,
+				4FE16E7BA3802D97DAF1E3F70EFBCD83 /* Sources */,
+				56D063B5BF22B893F657A2FE66A4C76C /* Frameworks */,
+				9787CFBC16F35751AE89D47AF5C01293 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -287,7 +272,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				42BAB63A4D435BCE15F5F59A85FED131 /* PBXTargetDependency */,
+				0539293F59E98FDAEFBFF1AE4AE15CDE /* PBXTargetDependency */,
 			);
 			name = "Pods-WYPodTwo_Example";
 			productName = "Pods-WYPodTwo_Example";
@@ -306,7 +291,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9BB1B653C3D0535D571B68C65E867A1C /* PBXTargetDependency */,
+				89D756D759696667545EDCF07C504203 /* PBXTargetDependency */,
 			);
 			name = "Pods-WYPodTwo_Tests";
 			productName = "Pods-WYPodTwo_Tests";
@@ -350,7 +335,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4908B815890663977B45B27FD8D25772 /* Resources */ = {
+		9787CFBC16F35751AE89D47AF5C01293 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,11 +360,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66CB5A3E58D78B9BEA93190AA8E132D1 /* Sources */ = {
+		4FE16E7BA3802D97DAF1E3F70EFBCD83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F00F4B46FB353678EBD3DCD0B6A7F0B4 /* WYPodTwo-dummy.m in Sources */,
+				13912127F2CFC903FD02303F05AFDB7F /* Logger.m in Sources */,
+				D5F9F1015900864D76108836AE4F4235 /* WYPodTwo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,24 +374,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED6D992C51F89527F1270D8B9452654E /* Pods-WYPodTwo_Example-dummy.m in Sources */,
-				AA0E455A26B24DAB00A5A6A5 /* Logger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		42BAB63A4D435BCE15F5F59A85FED131 /* PBXTargetDependency */ = {
+		0539293F59E98FDAEFBFF1AE4AE15CDE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WYPodTwo;
 			target = 8E7563B09D5BB5D9B3A3E3F723C6F309 /* WYPodTwo */;
-			targetProxy = 3780D4984FC32BD2C111FFB06D296985 /* PBXContainerItemProxy */;
+			targetProxy = E342D902BB785992981C00DD3D84C055 /* PBXContainerItemProxy */;
 		};
-		9BB1B653C3D0535D571B68C65E867A1C /* PBXTargetDependency */ = {
+		89D756D759696667545EDCF07C504203 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WYPodTwo_Example";
 			target = A58C801B93E8E715DA313C820E27FE50 /* Pods-WYPodTwo_Example */;
-			targetProxy = AB06672706178215CBE2821357E9BED0 /* PBXContainerItemProxy */;
+			targetProxy = 0FD62F7ED0B53EB93C67BA9C7613C084 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -541,9 +526,9 @@
 			};
 			name = Debug;
 		};
-		5E870FF3E839016C63F21EF73F1762B0 /* Release */ = {
+		3FA252B1C18E7E28A01D02D8B0BB3720 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0919E4DDA6DD2F21EEA0B27BA51A30F /* WYPodTwo.release.xcconfig */;
+			baseConfigurationReference = CACF490689517446A49F8FB50EBAB2F6 /* WYPodTwo.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -558,6 +543,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1.1;
 				MODULEMAP_FILE = "Target Support Files/WYPodTwo/WYPodTwo.modulemap";
 				PRODUCT_MODULE_NAME = WYPodTwo;
 				PRODUCT_NAME = WYPodTwo;
@@ -571,6 +557,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		7358E336F292E6821AF4705AA92C4AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4645C1B07A85E75835F1190D77699D /* WYPodTwo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WYPodTwo/WYPodTwo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYPodTwo/WYPodTwo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1.1;
+				MODULEMAP_FILE = "Target Support Files/WYPodTwo/WYPodTwo.modulemap";
+				PRODUCT_MODULE_NAME = WYPodTwo;
+				PRODUCT_NAME = WYPodTwo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		86F29BDFCAAC2F2C6DB39B39CB7549A8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -698,36 +715,6 @@
 			};
 			name = Release;
 		};
-		E2453F4E83F86261CBE5ED36E2A4726C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADC402A862858EA9FEDD89ABB7D258E7 /* WYPodTwo.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WYPodTwo/WYPodTwo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WYPodTwo/WYPodTwo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WYPodTwo/WYPodTwo.modulemap";
-				PRODUCT_MODULE_NAME = WYPodTwo;
-				PRODUCT_NAME = WYPodTwo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -740,20 +727,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		87154E1DB74676D17162246B70005FB0 /* Build configuration list for PBXNativeTarget "WYPodTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7358E336F292E6821AF4705AA92C4AE5 /* Debug */,
+				3FA252B1C18E7E28A01D02D8B0BB3720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CBB1DA3F088B969C82CFADEA33BEC9F8 /* Build configuration list for PBXNativeTarget "Pods-WYPodTwo_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDE765F4E37EFA31D49778C41D0417D2 /* Debug */,
 				86F29BDFCAAC2F2C6DB39B39CB7549A8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D57B7DF617252CCFD8CBF749954A609B /* Build configuration list for PBXNativeTarget "WYPodTwo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E2453F4E83F86261CBE5ED36E2A4726C /* Debug */,
-				5E870FF3E839016C63F21EF73F1762B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

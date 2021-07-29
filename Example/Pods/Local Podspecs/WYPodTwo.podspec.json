@@ -9,10 +9,10 @@
     "file": "LICENSE"
   },
   "authors": {
-    "wy136137@gmail.com": "liwuyang@360.cn"
+    "wy": "wy136137@gmail.com"
   },
   "source": {
-    "git": "https://github.com/wy136137@gmail.com/WYPodTwo.git",
+    "git": "git@github.com:wyboundary/WYPodTwo.git",
     "tag": "0.1.0"
   },
   "platforms": {

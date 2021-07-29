@@ -2,15 +2,20 @@ PODS:
   - WYPodTwo (0.1.0)
 
 DEPENDENCIES:
-  - WYPodTwo (from `../`)
+  - "WYPodTwo (from `git@github.com:wyboundary/WYPodTwo.git`)"
 
 EXTERNAL SOURCES:
   WYPodTwo:
-    :path: "../"
+    :git: "git@github.com:wyboundary/WYPodTwo.git"
+
+CHECKOUT OPTIONS:
+  WYPodTwo:
+    :commit: 2743dae89f47f4d524f03d65f947cf3b44d2f4f9
+    :git: "git@github.com:wyboundary/WYPodTwo.git"
 
 SPEC CHECKSUMS:
-  WYPodTwo: 53fbde18303b2ed145e25271e018a978ff29eec4
+  WYPodTwo: 5e7afb38f4016db0ac7615dd4e265dbe17d255a6
 
-PODFILE CHECKSUM: fb843104497cd9f92b65bfdd934c1489b0583244
+PODFILE CHECKSUM: baa424a1eb706101d64dcb8cab7494c80087fe6c
 
 COCOAPODS: 1.10.1

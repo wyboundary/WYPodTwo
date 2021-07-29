@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'WYPodTwo_Example' do
-  pod 'WYPodTwo', :path => '../'
+  pod 'WYPodTwo', :git => 'git@github.com:wyboundary/WYPodTwo.git'
 
   target 'WYPodTwo_Tests' do
     inherit! :search_paths

@@ -7,7 +7,7 @@
 //
 
 #import "QHViewController.h"
-
+#import <WYPodTwo/Logger.h>
 @interface QHViewController ()
 
 @end
