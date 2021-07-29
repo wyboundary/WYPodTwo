@@ -24,8 +24,8 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/wy136137@gmail.com/WYPodTwo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wy136137@gmail.com' => 'liwuyang@360.cn' }
-  s.source           = { :git => 'https://github.com/wy136137@gmail.com/WYPodTwo.git', :tag => s.version.to_s }
+  s.author           = { 'wy' => 'wy136137@gmail.com' }
+  s.source           = { :git => 'git@github.com:wyboundary/WYPodTwo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

@@ -1,0 +1,16 @@
+PODS:
+  - WYPodTwo (0.1.0)
+
+DEPENDENCIES:
+  - WYPodTwo (from `../`)
+
+EXTERNAL SOURCES:
+  WYPodTwo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WYPodTwo: 53fbde18303b2ed145e25271e018a978ff29eec4
+
+PODFILE CHECKSUM: fb843104497cd9f92b65bfdd934c1489b0583244
+
+COCOAPODS: 1.10.1

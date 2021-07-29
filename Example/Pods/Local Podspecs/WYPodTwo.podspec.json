@@ -1,0 +1,22 @@
+{
+  "name": "WYPodTwo",
+  "version": "0.1.0",
+  "summary": "A short description of WYPodTwo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wy136137@gmail.com/WYPodTwo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wy136137@gmail.com": "liwuyang@360.cn"
+  },
+  "source": {
+    "git": "https://github.com/wy136137@gmail.com/WYPodTwo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WYPodTwo/Classes/**/*"
+}
